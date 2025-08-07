@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\day9">
       <UniqueIdentifier>{243f74ce-06c0-4517-a339-c5c558ac6b05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day10">
+      <UniqueIdentifier>{74ef493c-e953-4234-adda-f73b48f6976f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -140,6 +143,24 @@
     </ClCompile>
     <ClCompile Include="for문.c">
       <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="break문.c">
+      <Filter>소스 파일\day10</Filter>
+    </ClCompile>
+    <ClCompile Include="continue.c">
+      <Filter>소스 파일\day10</Filter>
+    </ClCompile>
+    <ClCompile Include="중첩for문.c">
+      <Filter>소스 파일\day10</Filter>
+    </ClCompile>
+    <ClCompile Include="별 찍기 .c">
+      <Filter>소스 파일\day10</Filter>
+    </ClCompile>
+    <ClCompile Include="난수.c">
+      <Filter>소스 파일\day10</Filter>
+    </ClCompile>
+    <ClCompile Include="배열.c">
+      <Filter>소스 파일\day10</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
