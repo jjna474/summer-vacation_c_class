@@ -1,12 +1,17 @@
 #include<stdio.h>
 
-void name(char*p) {
-	printf("안녕하세요. %s 님",p);
+void hello(char *name) {
+	printf("안녕하세요. %s 님\n",name);
 }
 
-main(void)
+int main (void)
 {
-	
+	char name[20];
+	printf("이름을 입력하세요:");
+	scanf_s("%s", name,(unsigned)sizeof(name));
+	hello(name);
+	 
+
 
 	
 	return 0;

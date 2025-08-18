@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\day13">
       <UniqueIdentifier>{69c6a08f-55fd-46ee-acf9-4b5952aeebd3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day14">
+      <UniqueIdentifier>{9644f768-cf19-4e2b-80db-321d2a0c16c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -209,6 +212,21 @@
     </ClCompile>
     <ClCompile Include="이름받아인사하기.c">
       <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자를 받아서 더하는 함수.c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="두 값 중 더 큰 값을 반환 .c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="지역변수, 전역변수 .c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터와 함수 .c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="이중포인터 .c">
+      <Filter>소스 파일\day14</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
